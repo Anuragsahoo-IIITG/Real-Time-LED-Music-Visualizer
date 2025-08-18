@@ -1,4 +1,4 @@
-# 📢 Upcoming Project :- Real-Time-LED-Music-Visualizer
+# 📢 Upcoming Documentation :- Real-Time-LED-Music-Visualizer
 
 🎥 Project Demo (For Resume Viewers)
 
