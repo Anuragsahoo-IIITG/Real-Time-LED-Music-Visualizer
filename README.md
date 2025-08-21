@@ -10,7 +10,7 @@ So, I thought of building a project that would **bridge this gap between my love
 
 ✨ And when it finally worked, I found myself singing for hours, mesmerized by how the lights danced with my voice.  
 
-![Demo_Visualiser](DemoVisualisercompressor.gif)
+![Demo_Visualiser](DemoVisualizercompressor.gif)
 
 ## ⚙️ How It Works  
 
