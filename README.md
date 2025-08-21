@@ -35,7 +35,7 @@ This project is a **two-part system**:
 - 🔗 **Seamless Serial Communication** – Python sends RGB values directly to ESP32.  
 - 💡 **WS2812B NeoPixel Control** – syncs addressable LEDs with music.  
 
-![Demo_Visualiser](DemoVisualizer2compressor.gif)
+![Demo_Visualiser2](DemoVisualizer2compressor.gif)
 ---
 
 ## 🛠️ Hardware Requirements  
