@@ -10,7 +10,7 @@ So, I thought of building a project that would **bridge this gap between my love
 
 ✨ And when it finally worked, I found myself singing for hours, mesmerized by how the lights danced with my voice.  
 
-![Demo_Visualiser]()
+![Demo_Visualiser](DemoVisualiser.gif)
 
 ## ⚙️ How It Works  
 
@@ -35,7 +35,7 @@ This project is a **two-part system**:
 - 🔗 **Seamless Serial Communication** – Python sends RGB values directly to ESP32.  
 - 💡 **WS2812B NeoPixel Control** – syncs addressable LEDs with music.  
 
-![Demo_Visualiser_2]()
+![Demo_Visualiser](DemoVisualizer2compressor.gif)
 ---
 
 ## 🛠️ Hardware Requirements  
