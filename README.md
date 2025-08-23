@@ -1,3 +1,10 @@
+
+## 📲 Connect
+Check out my LinkedIn post about this project where you can see the LEDs dance to music 👉  
+[🔗 View on LinkedIn]([https://www.linkedin.com/in/YOUR-USERNAME/posts/POST-ID](https://www.linkedin.com/posts/anuragsahooiiitg_python-esp32-music-activity-7364728191019581440-z80a?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEUPUs4BoMkNzV_gEMUQyDOiyVkbyLPoc48))
+
+
+
 ## Why I Built It 🎶💡
 
 I’ve always been fascinated by how **music can be seen as well as heard**. Watching lights respond to beats brings sound to life in a completely different way.  
@@ -42,5 +49,55 @@ This project is a **two-part system**:
 - 🔲 **ESP32 Microcontroller**  
 - 🌈 **WS2812B NeoPixel LED Strip**  
 - 🔌 **USB Cable** (for flashing & serial communication)  
-- 🎤 **Microphone** connected to your computer  
- 
+- 🎤 **Microphone** connected to your computer
+
+
+## 5) Software & Dependencies
+
+### Python
+Install the required libraries:
+1. Pyserial  
+2. Sounddevice  
+3. Numpy  
+4. Soundfile  
+
+### Arduino
+The ESP32 sketch requires the **Adafruit NeoPixel** library.  
+Install it via Arduino IDE → **Library Manager** → Search *Adafruit NeoPixel* → Install.  
+
+---
+
+## 6) Setup & Installation
+
+### Step 1: Flash the ESP32
+1. Open `Code_Serial_music_dance.ino` in Arduino IDE.  
+2. Set `NUM_LEDS` to match your LED strip (default: 300).  
+3. Ensure `LED_PIN` is the GPIO pin used (default: 5).  
+4. Connect ESP32 via USB → Select correct **Board** & **Port**.  
+5. Upload the code.  
+
+### Step 2: Configure the Python Script
+1. Open `microphone_server_frequency.py`.  
+2. Change `SERIAL_PORT` to your ESP32 port:  
+   - Windows → `COM3`  
+   - Linux/macOS → `/dev/ttyUSB0`  
+
+### Step 3: Run the Visualizer
+
+Run the python code in your bash or any other IDE -> microphone_server_frequency.py
+
+The script will start listening to your microphone and stream RGB values to your ESP32. LEDs will respond in real time!
+
+
+ ## Contributing
+Contributions are welcome!  
+- Add new lighting patterns 🎨  
+- Optimize audio processing ⚡  
+- Improve synchronization 🕹️  
+
+---
+
+## License
+This project is licensed under the **MIT License**.  
+See [LICENSE.md](LICENSE) for details.  
+
